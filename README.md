@@ -43,7 +43,7 @@ Oppgaven deres består i å finne en måte å skrive et python script som kan le
 
 Her er referanse sekvensene våre. Disse sekvensene (veldig liten del av DNA'et - arvematerialet) er unike for de ulike populasjonene våre. Her har vi faktisk bare to populasjoner, villlaks og oppdrettslaks. Vi har også en tredje type referanse sekvens, hybrid referansen, som er unik for hybrider.
 
-Når vi får dna sekvenser fra et sekvenseringslaboratorium vil vi gjerne vite hvilket individ denne sekvensen kommer fra. En vanlig måte DNA data blir presentert på er ved at identifikasjonen til et individ kommer i første linje og starter alltid med symbolen ">", neste linje er deretter DNA strengen som tilhører individet. 
+Når vi får dna sekvenser fra et sekvenseringslaboratorium vil vi gjerne vite hvilket individ denne sekvensen kommer fra. En vanlig måte DNA data blir presentert på er ved at identifikasjonen til et individ kommer i første linje og starter alltid med symbolet ">", neste linje er deretter DNA strengen som tilhører individet. 
 
 <br/>
 
@@ -65,7 +65,7 @@ Når vi får dna sekvenser fra et sekvenseringslaboratorium vil vi gjerne vite h
 
 ## Populasjons data
 
-Her finner dere DNA sekvens dataen får 20 individer av laks vi har fisket fra elven i Figur 1.
+Her finner dere DNA sekvens dataen for 20 individer av laks vi har fisket fra elven i Figur 1.
 
 <br/>
 
