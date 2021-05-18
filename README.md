@@ -65,7 +65,7 @@ Når vi får dna sekvenser fra et sekvenseringslaboratorium vil vi gjerne vite h
 
 ## Populasjons data
 
-Her finner dere DNA sekvens dataen for 20 individer av laks vi har fisket fra elven i Figur 1.
+Her finner dere DNA sekvenser dataen for 20 individer av laks vi har fisket fra elven i Figur 1.
 
 <br/>
 
