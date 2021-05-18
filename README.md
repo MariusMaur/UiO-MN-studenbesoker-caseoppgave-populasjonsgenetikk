@@ -35,7 +35,7 @@ I noen tilfeller kan genflyt være negativt. Et mulig tilfelle der genflyt kan v
 
 Dere har fått utdelt 3 referanse DNA sekvenser, en til oppdrettslaks, en til villlaks, og en til en hybrid laks. Dere har også fått utdelt DNA sekvenser til 20 laks fanget i elven på Figur 1. 
 
-Oppgaven deres består i å finne en måte å skrive et python script som kan lese DNA sekvensene fra elven og identifisere om dette er en villlaks eller oppdrettslaks.
+Oppgaven deres består i å finne en måte å skrive et python script som kan lese DNA sekvensene fra elven og identifisere om dette er en villlaks, oppdrettslaks eller hybrid.
 
 <br/>
 
