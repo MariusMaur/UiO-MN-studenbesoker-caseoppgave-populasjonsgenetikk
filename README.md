@@ -200,6 +200,7 @@ Her finner dere DNA sekvens dataen får 20 individer av laks vi har fisket fra e
 <br>
 
 
+```python
 def identifiser_fisk(data):
     
     # referanse data
@@ -246,7 +247,7 @@ def identifiser_fisk(data):
     return(print("I elven har vi identifisert: " + str(teller_villlaks) + " villlaks, " + str(teller_oppdrettslaks) +  " oppdrettslaks, og " + str(teller_hybrid) + "            hybrider."))
 
 identifiser_fisk("populasjons_data.txt")
-
+```
  
     
 </details>
