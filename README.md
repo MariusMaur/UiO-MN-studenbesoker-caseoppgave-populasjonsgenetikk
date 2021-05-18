@@ -199,11 +199,54 @@ Her finner dere DNA sekvens dataen får 20 individer av laks vi har fisket fra e
 <summary>Løsning: (Klikk her)</summary>
 <br>
 
-    >Vill_laks_referanse
-    ATCGGCAACGAATCACTACGGAAGCCGGACTACGAGCTACG
-    >Oppdretts_laks_referanse
-    ATCGGCAACGATCGACTACGGACTACGGACTACGAGCTACG
+
+def identifiser_fisk(data):
+    
+    # referanse data
+    oppdrettslaks_ref="ATCGGCAACGAATCACTACGGAAGCCGGACTACGAGCTACG"
+    vill_laks_ref="ATCGGCAACGATCGACTACGGACTACGGACTACGAGCTACG"
     hybrid_ref="ATCGGCAACGATCGACTACGGAAGCCGGACTACGAGCTACG"
+
+    # les in data
+    data=open(data)
+
+    # Leser hver linje i dokumentet
+    linjer=data.readlines()
+
+    # Tom liste med individ navn
+    individ=[]
+    # Tom liste med sekvens navn
+    sekvens=[]
+
+    for linje in linjer:
+        # Fjerner alle tomme linjer "\n" (\n betyr ny linje)
+        linje=linje.strip("\n")
+        # Siden vi ved identifikasjon begynner med ">",
+        # kan vi bruke det til å hente navn på individene
+        if linje.startswith(">"):
+            individ.append(linje)
+            sekvens.append("")
+        else:
+        #   Her henter vi DNA sekvensene
+            sekvens[-1]+=linje
+
+    # start en teller
+    teller_oppdrettslaks = 0
+    teller_villlaks = 0
+    teller_hybrid = 0
+    # For hver match til en DNA sekvens, legg til 1
+    for i in sekvens:
+        if i == vill_laks_ref:
+            teller_villlaks += 1
+        elif i == oppdrettslaks_ref:
+            teller_oppdrettslaks += 1
+        else:
+            teller_hybrid += 1
+    # Gi oss resultatet
+    return(print("I elven har vi identifisert: " + str(teller_villlaks) + " villlaks, " + str(teller_oppdrettslaks) +  " oppdrettslaks, og " + str(teller_hybrid) + " hybrider."))
+
+
+identifiser_fisk("populasjons_data.txt")
     
 </details>
 
