@@ -13,7 +13,7 @@
 
 ## Introduksjon
 
-Populasjonsgenetikk kan brukes til å identifisere blant annet naturlig seleksjon, slektskap mellom individider, populasjonsstørrelser over tid og hybridisering. 
+Populasjonsgenetikk kan brukes til å identifisere blant annet populasjoner, naturlig seleksjon, slektskap mellom individider, populasjonsstørrelser over tid og hybridisering. 
 
 Hybridisering i naturen er når to forskjellige arter eller populasjoner får avkom sammen. Dette individet vil være en blanding, og vil derfor ha arvemateriale (DNA) fra de to foreldreartene (eller foreldrepopulasjonene). 
 
