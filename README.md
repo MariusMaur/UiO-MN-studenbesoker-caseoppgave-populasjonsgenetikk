@@ -9,7 +9,7 @@
 * [Referanse data](#referanse-data)
 * [Populasjons data](#populasjons-data)
 * [Instruks til python script](#instruks-til-python-script)
-* [Instruks til å oppgaven uten python](#instruks-til-å-oppgaven-uten-python)
+* [Sammendrag](#sammendrag)
 
 ## Introduksjon
 
@@ -259,4 +259,4 @@ identifiser_fisk("populasjons_data.txt")
 
 ## Sammendrag
 
-DNA - arvemateriale vil være ulikt mellom individer, populasjoner og arter. Basert på denne informasjonen kan vi bruke matematikk og programmering (populasjonsgenetikk) for å identifisere ulike individer, populasjoner eller arter. Ved å bruke populasjonsgenetikk kan vi identifisere for eksempel ulike populasjoner. I dette eksemplet ville vi finne ut om oppdrettslaks rømte fra merdene og hybridiserte med villlaks i området. Siden genflyt mellom disse to populasjonene kan ha negative effekter for villlaks, er det veldig viktig å finne ut om hybridisering forekommer. Denne informasjonen kan brukes til å gi beskjed til fiskeoppdretterne at her må det mer sikkerhet til slik at oppdrettslaksen ikke rømmer.  
+DNA - arvemateriale vil være ulikt mellom individer, populasjoner og arter. Basert på denne informasjonen kan vi bruke matematikk og programmering (populasjonsgenetikk) for å identifisere ulike individer, populasjoner eller arter. I dette eksemplet ville vi finne ut om oppdrettslaks rømte fra merdene og hybridiserte med villlaks i området. Siden genflyt mellom disse to populasjonene kan ha negative konsekvenser for villlaks, er det veldig viktig å finne ut om hybridisering forekommer. Denne informasjonen kan brukes til å gi beskjed til fiskeoppdretterne at her må det mer sikkerhet til slik at oppdrettslaksen ikke rømmer.
