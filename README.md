@@ -243,13 +243,14 @@ def identifiser_fisk(data):
         else:
             teller_hybrid += 1
     # Gi oss resultatet
-    return(print("I elven har vi identifisert: " + str(teller_villlaks) + " villlaks, " + str(teller_oppdrettslaks) +  " oppdrettslaks, og " + str(teller_hybrid) + " hybrider."))
-
+    return(print("I elven har vi identifisert: " + str(teller_villlaks) + " villlaks, " + str(teller_oppdrettslaks) +  " oppdrettslaks, og " + str(teller_hybrid) + "            hybrider."))
 
 identifiser_fisk("populasjons_data.txt")
+
+ 
     
 </details>
 
 
 
-## Instruks til å oppgaven uten python
+## Sammendrag
