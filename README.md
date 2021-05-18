@@ -17,7 +17,7 @@ Populasjonsgenetikk kan brukes til å identifisere blant annet naturlig seleksjo
 
 Hybridisering i naturen er når to forskjellige arter eller populasjoner får avkom sammen. Dette individet vil være en blanding, og vil derfor ha arvemateriale (DNA) fra de to foreldreartene (eller foreldrepopulasjonene). 
 
-Dette kan både ha negative og positive effekter for individet. Et vanlig eksempel på hybridisering er når en hest og et esel får avkom. Hybriden av de to artene vil mest sannsynlig ikke være forplantingsdyktig. ((Når vi derimot ser på to *populasjoner* (ikke arter) - )) Når to forskjellige populasjoner hybridiserer, vil ofte hybridene være forplantingsdyktige fordi to populasjoner er i utgangspunktet ikke forskjellige. Dette kan føre til at populasjoner kan ha ha genflyt mellom seg. 
+Dette kan både ha negative og positive effekter for individet og populasjonene individene befinner seg i. Et vanlig eksempel på hybridisering er når en hest og et esel får avkom. Hybriden av de to artene vil mest sannsynlig ikke være forplantingsdyktig. Når to forskjellige populasjoner hybridiserer, vil ofte hybridene være forplantingsdyktige fordi to populasjoner er i utgangspunktet ikke like genetisk forskjellige som to arter. Dette kan føre til at populasjoner kan ha ha genflyt mellom seg. 
 
 I noen tilfeller kan genflyt være negativt. Et mulig tilfelle der genflyt kan være et problem er når oppdrettslaks hybridiserer med villaks. Noen gange rømmer oppdrettslaks og hybridiserer med villaks. I dag skal vi bruke populasjonsgenetikk til å finne ut om oppdrettslaks har rømt fra merdene sine og hybridisert med villaks i elven avbildet i figur 1.
 
@@ -41,7 +41,9 @@ Oppgaven deres består i å finne en måte å skrive et python script som kan le
 
 ## Referanse data
 
-Her er referanse sekvensene våre. Når vi får dna sekvenser fra et sekvenseringslaboratorium vil vi gjerne vite hvilket individ denne sekvensen kommer fra. En vanlig måte DNA data blir presentert på er ved at identifikasjonen til et individ kommer i første linje og starter alltid med symbolen ">", neste linje er deretter DNA strengen som tilhører individet. 
+Her er referanse sekvensene våre. Disse sekvensene (veldig liten del av DNA'et - arvematerialet) er unike for de ulike populasjonene våre. Her har vi faktisk bare to populasjoner, villlaks og oppdrettslaks. Vi har også en tredje type referanse sekvens, hybrid referansen, som er unik for hybrider.
+
+Når vi får dna sekvenser fra et sekvenseringslaboratorium vil vi gjerne vite hvilket individ denne sekvensen kommer fra. En vanlig måte DNA data blir presentert på er ved at identifikasjonen til et individ kommer i første linje og starter alltid med symbolen ">", neste linje er deretter DNA strengen som tilhører individet. 
 
 <br/>
 
@@ -53,7 +55,8 @@ Her er referanse sekvensene våre. Når vi får dna sekvenser fra et sekvenserin
     ATCGGCAACGAATCACTACGGAAGCCGGACTACGAGCTACG
     >Oppdretts_laks_referanse
     ATCGGCAACGATCGACTACGGACTACGGACTACGAGCTACG
-    hybrid_ref="ATCGGCAACGATCGACTACGGAAGCCGGACTACGAGCTACG"
+    >hybrid_ref
+    ATCGGCAACGATCGACTACGGAAGCCGGACTACGAGCTACG"
     
 </details>
 
@@ -255,3 +258,5 @@ identifiser_fisk("populasjons_data.txt")
 5. Hvis du har tid kan du sjekke om scriptet ditt også fungerer for en annen populasjonen vi har tatt prøver fra(populasjons_data_ekstra.txt)
 
 ## Sammendrag
+
+DNA - arvemateriale vil være ulikt mellom individer, populasjoner og arter. Basert på denne informasjonen kan vi bruke matematikk og programmering (populasjonsgenetikk) for å identifisere ulike individer, populasjoner eller arter. Ved å bruke populasjonsgenetikk kan vi identifisere for eksempel ulike populasjoner. I dette eksemplet ville vi finne ut om oppdrettslaks rømte fra merdene og hybridiserte med villlaks i området. Siden genflyt mellom disse to populasjonene kan ha negative effekter for villlaks, er det veldig viktig å finne ut om hybridisering forekommer. Denne informasjonen kan brukes til å gi beskjed til fiskeoppdretterne at her må det mer sikkerhet til slik at oppdrettslaksen ikke rømmer.  
