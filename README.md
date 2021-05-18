@@ -252,6 +252,6 @@ identifiser_fisk("populasjons_data.txt")
     
 </details>
 
-
+5. Hvis du har tid kan du sjekke om scriptet ditt også fungerer for en annen populasjonen vi har tatt prøver fra(populasjons_data_ekstra.txt)
 
 ## Sammendrag
