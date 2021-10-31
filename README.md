@@ -56,7 +56,7 @@ Når vi får dna sekvenser fra et sekvenseringslaboratorium vil vi gjerne vite h
     >Oppdretts_laks_referanse
     ATCGGCAACGATCGACTACGGACTACGGACTACGAGCTACG
     >hybrid_ref
-    ATCGGCAACGATCGACTACGGAAGCCGGACTACGAGCTACG"
+    ATCGGCAACGATCGACTACGGAAGCCGGACTACGAGCTACG
     
 </details>
 
