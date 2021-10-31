@@ -151,7 +151,7 @@ Her finner dere DNA sekvens dataen for 20 individer av laks vi har fisket fra el
     for linje in linjer:
         # Fjerner alle tomme linjer "\n" (\n betyr ny linje)
         linje=linje.strip("\n")
-        # Siden vi ved identifikasjon begynner med ">",
+        # Siden vi vet identifikasjon begynner med ">",
         # kan vi bruke det til å hente navn på individene
         if linje.startswith(">"):
             individ.append(linje)
